@@ -1,0 +1,23 @@
+CONTRACT ADDRESS:
+0x9559e6b7e52c63d9911fb945cb4b561f714a3cdb
+
+
+
+
+
+ENVIRONMENT:
+> NODE Version - 10.13.0
+> Solidity Version - 0.4.24
+> Web3 Version - 1.7.5
+> Truffle Version - 4.1.14
+
+UML:
+Activity - Supply_chain/States Diagram.drawio.pdf
+
+States - Supply_chain/ActivityDiagram.drawio.pdf
+
+LIBRARIES USED:
+> Roles: from Roles.sol/coffeeaccesscontrol
+
+
+ipfs: Not implemented
