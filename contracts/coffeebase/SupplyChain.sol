@@ -166,7 +166,7 @@ contract SupplyChain is RetailerRole, FarmerRole, DistributorRole, ConsumerRole,
     // Add the new item as part of Harvest
     items[_upc].upc = _upc;
     items[_upc].sku = sku;
-    items[_upc].ownerID = msg.sender;
+    items[_upc].ownerID = _originFarmerID;
     items[_upc].originFarmerID = _originFarmerID;
     items[_upc].originFarmName = _originFarmName;
     items[_upc].productNotes = _productNotes;
